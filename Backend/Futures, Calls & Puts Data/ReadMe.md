@@ -3,6 +3,7 @@ The folder "Task-1.3.6 - March2024 Stocks Data" contains Futures and Options(Cal
 The file "Task1.3.6 Code for Fetching Futures, Calls & Puts data using Breeze API.ipynb"  contains all the code used to fetch the data using Breeze API
 
 --Nishamol Sivan-: Task_1.3.2 ---------------------------------------------------------------------------------------------------------------
+
 Below Files contain code use to fetch Nifty Index Futures and Options using Breeze API. 
          1. Task_1.3.2_unload_Nifty_Midcap_BnkNifty_FinNifty_options_weekly_basis
          2. Task_1.3.2_unload_Nifty_Midcap_BnkNifty_FinNifty_futures_monthly_basis
