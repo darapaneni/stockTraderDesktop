@@ -13,8 +13,14 @@ def main():
     session_token = SESSION_ID
     if session_token:
         url = LOGIN_URL
+        # Get username and password from user input
+        userid = input("Enter your User ID: ")
+        password = input("Enter your Password: ")
+        
         payload = {
-            "api_secret": API_SECRET
+            "api_secret": API_SECRET,
+            "userid": userid,
+            "password": password
         }
         try:
             response = requests.post(url, json=payload)
